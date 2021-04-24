@@ -83,7 +83,7 @@ test("execute fails with the wrong parameters", async (t) => {
     )
   );
 
-  t.deepEqual(error.message, "The object test1 is not supported.");
+  t.deepEqual(error.message, "The object test1 is not supported commit 1.");
 
   error = await t.throwsAsync(
     Promise.resolve<void>(
@@ -197,7 +197,7 @@ test("execute passes", async (t) => {
       url: "https://jsonplaceholder.typicode.com/todos/123",
     },
     headers: {
-      test: "test value basha",
+      test: "test value basha commit 2",
     },
   });
 
