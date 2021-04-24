@@ -197,7 +197,7 @@ test("execute passes", async (t) => {
       url: "https://jsonplaceholder.typicode.com/todos/123",
     },
     headers: {
-      test: "test value",
+      test: "test value basha",
     },
   });
 
