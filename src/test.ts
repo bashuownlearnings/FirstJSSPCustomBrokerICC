@@ -22,7 +22,7 @@ test("describe returns the hardcoded instance", async (t) => {
     objects: {
       todo: {
         displayName: "TODO",
-        description: "Manages a TODO list",
+        description: "Manages a TODO list description",
         properties: {
           id: {
             displayName: "ID",
@@ -54,7 +54,7 @@ test("describe returns the hardcoded instance", async (t) => {
             parameters: {
               pid: {
                 displayName: "param1",
-                description: "Description Of Param 1",
+                description: "Description Of Param 1 hello",
                 type: "number",
               },
             },
