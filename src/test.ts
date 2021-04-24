@@ -98,7 +98,7 @@ test("execute fails with the wrong parameters", async (t) => {
     )
   );
 
-  t.deepEqual(error.message, "The method test2 is not supported.");
+  t.deepEqual(error.message, "The method test2 is not supported pls check.");
 
   t.pass();
 });
